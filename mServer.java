@@ -1,5 +1,5 @@
 /*******************************************************************************
- * @author		: Rohan Jyoti
+ * @author		: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
  * @filename	: mServer.java
  * @purpose		: Server responsible for storing client files (files come in
  * 					encrypted)
@@ -90,7 +90,7 @@ public class mServer
 		
 		
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mRecvFile
 	 * @class	: CiphertextServer
 	 * @param	: DataInputStream mData (associated input stream with socket)
@@ -150,7 +150,7 @@ public class mServer
 			
 		
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mExecGrep
 	 * @class	: CiphertextServer
 	 * @param	: DataInputStream mData (associated input stream with socket)
@@ -190,7 +190,7 @@ public class mServer
 		
 		
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mInputStreamToString
 	 * @class	: CiphertextServer
 	 * @param	: InputStream mIS (associated input stream with some data)
@@ -218,7 +218,7 @@ public class mServer
 		
 	
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mSendFile
 	 * @class	: CiphertextServer
 	 * @param	: DataInputSteeam mData (input stream associated with accepting socket),
@@ -249,7 +249,7 @@ public class mServer
 		
 		
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mReadFile
 	 * @class	: CiphertextServer
 	 * @param	: String fileName (the file you want to read)
@@ -273,7 +273,7 @@ public class mServer
 	}
 		
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: SOP
 	 * @class	: CiphertextServer
 	 * @param	: String arg (any arbitrary argument as string)

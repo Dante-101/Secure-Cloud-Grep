@@ -1,5 +1,5 @@
 /*******************************************************************************
- * @author		: Rohan Jyoti
+ * @author		: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
  * @filename	: mClient.java
  * @purpose		: Client responsible for building index, uploading encrypted files,
  * 					adding files, deleting files, searching files
@@ -174,7 +174,7 @@ public class mClient
 	}
         
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: writeFilesList
 	 * @class	: mClient
 	 * @param	: String tFilesList (string representation of all files on server
@@ -192,7 +192,7 @@ public class mClient
 	
 	
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: readFilesList
 	 * @class	: mClient
 	 * @param	: none
@@ -213,7 +213,7 @@ public class mClient
 	
 	
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mGenerateSessionKey
 	 * @class	: mClient
 	 * @param	: none
@@ -268,7 +268,7 @@ public class mClient
 	
 	
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mWriteBytesToFile
 	 * @class	: mClient
 	 * @param	: String fileName (the file you want to write to),
@@ -285,7 +285,7 @@ public class mClient
 	
 	
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mReadFile
 	 * @class	: mClient
 	 * @param	: String fileName (the file you want to read)
@@ -310,7 +310,7 @@ public class mClient
 	
 	
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mEncryptFile
 	 * @class	: mClient
 	 * @param	: byte[] mUnencryptedData (the unencrypted data to be encrpyted),
@@ -334,7 +334,7 @@ public class mClient
 		
 	
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mDecryptFile
 	 * @class	: mClient
 	 * @param	: byte[] mEncryptedData (the encrypted data to be decrypted),
@@ -360,7 +360,7 @@ public class mClient
 		
 	
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mGenerateIV
 	 * @class	: mClient
 	 * @param	: none
@@ -382,7 +382,7 @@ public class mClient
 	
 	
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mUploadFile
 	 * @class	: mClient
 	 * @param	: String fileName (the file you want to read),
@@ -413,7 +413,7 @@ public class mClient
 	
 	
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mDeleteFile
 	 * @class	: mClient
 	 * @param	: String fileName (the file you want to delete from server
@@ -431,7 +431,7 @@ public class mClient
 	
 	
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mDownloadFile
 	 * @class	: CiphertextClient
 	 * @param	: String fileName (the file you want to read),
@@ -511,7 +511,7 @@ public class mClient
 	}
 
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: mExecSearch
 	 * @class	: CiphertextClient
 	 * @param	: String tKeyword (search keyword)
@@ -587,7 +587,7 @@ public class mClient
 	}
 	
 	/*******************************************************************************
-	 * @author	: Rohan Jyoti
+	 * @author	: Gaurav Lahoti, Rohan Jyoti, Seeun Oh
 	 * @name	: SOP
 	 * @class	: CiphertextClient
 	 * @param	: String arg (any arbitrary argument as string)
